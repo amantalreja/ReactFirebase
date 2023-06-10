@@ -1,8 +1,6 @@
 import firebaseConfig from "./config";
 import {React,Component} from 'react';
-import { initializeApp } from "firebase/app";
 class HomePage extends Component{
-
     constructor(){
         super();
         this.state={
